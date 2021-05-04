@@ -1,0 +1,39 @@
+.sidebar__chat {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  border-top: 2px solid #f6f6f6;
+  border-bottom: 2px solid #f6f6f6;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar__chat:hover {
+  background-color: rgb(221, 247, 221);
+}
+
+.sidebarChat__info {
+  margin-left: 15px;
+}
+
+.sidebar__createChat {
+  background-color: aqua;
+  display: flex;
+  padding: 20px;
+}
+
+#addChat {
+  background-color: red;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 40px;
+}
+#addChat:hover {
+  background-color: rgb(238, 255, 0);
+  cursor: pointer;
+}
